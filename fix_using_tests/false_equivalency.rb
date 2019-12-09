@@ -13,9 +13,9 @@ end
 def selection(num)
 #  return num
   if num = 1
-    return "YUM YUM MUNCH MUNCH MUNCH"
+    p  "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
-     return "HAM HAM HAM IN MY TUMMY"
+    p  "HAM HAM HAM IN MY TUMMY"
   end
 end
 
