@@ -11,7 +11,7 @@ def prompt_user
 end
 
 def selection(num)
-  return num
+#  return num
   if num = 1
     return "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
