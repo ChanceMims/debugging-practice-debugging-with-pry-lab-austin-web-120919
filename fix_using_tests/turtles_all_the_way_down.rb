@@ -13,7 +13,7 @@ def turtle_traits(turtles)
     if turtle[:traits].length > 1
       turtle[:traits]
     else
-      [turtle[:traits]]
+      turtle[][:traits]]
     end
   end
 end
