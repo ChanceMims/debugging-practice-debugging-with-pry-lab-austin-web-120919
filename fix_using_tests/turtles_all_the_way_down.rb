@@ -9,7 +9,7 @@ def turtles
 end
 
 def turtle_traits(turtles)
-  new_turtle = turtles.map { |turtle| Array(turtle[:traits]) if turtle[:traits].kind_of?(Array) == false 
+  new_turtle = turtles.map { |turtle| Array(turtle[:traits]) if turtle[:traits].kind_of?(Array) == false
   turtle}
   new_turtle.map do |turtle|
     turtle[:traits].each do |trait|
